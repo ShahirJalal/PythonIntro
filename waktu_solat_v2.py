@@ -8,9 +8,22 @@ def get_api():
     return data
 
 def get_input():
-    input_negeri = sys.argv[1]
-    input_zon    = sys.argv[2]
-    input_waktu  = sys.argv[3]
+    if len(sys.argv) == 4:
+        input_negeri = sys.argv[1]
+        input_zon    = sys.argv[2]
+        input_waktu  = sys.argv[3]
+    elif len(sys.argv) == 3:
+        input_negeri = sys.argv[1]
+        input_zon    = sys.argv[2]
+        input_waktu  = ''
+    elif len(sys.argv) == 2:
+        input_negeri = sys.argv[1]
+        input_zon    = ''
+        input_waktu  = ''
+    elif len(sys.argv) == 1:
+        input_negeri = ''
+        input_zon    = ''
+        input_waktu  = ''
     return input_negeri, input_zon, input_waktu
 
 def data_filter(input_negeri, input_zon, input_waktu, data):
@@ -24,6 +37,15 @@ def data_filter(input_negeri, input_zon, input_waktu, data):
                         nama3 = maklumat['name']
                         if input_waktu == nama3:
                             print(maklumat)
+                            break
+                    else:
+                        print(info['waktu_solat'])
+                    break
+            else:
+                print(arkib['zon'])
+            break
+    else:
+        print(data['data']['negeri'])
 
 def main():
 
