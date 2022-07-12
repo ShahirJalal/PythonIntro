@@ -9,6 +9,6 @@ I made an app to print waktu solat based on an API from "https://waktu-solat-api
     - If you want to print prayer time of the whole State, write: python waktu_solat.py "Negeri"
       - E.g., python waktu_solat.py "wilayah persekutuan"
     - If you want to print the prayer time of entire Malaysia, write: python waktu_solat.py
-      - E.g., python waktu_solat.py
+      - E.g., """ python waktu_solat.py """
     - Make sure to write in lower case letters and in quotation mark ("")
     - press "Enter"
