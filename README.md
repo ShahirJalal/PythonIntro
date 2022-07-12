@@ -1,4 +1,4 @@
-#Muslim Prayer Time App
+# Muslim Prayer Time App
 
 I made an app to print waktu solat based on an API from "https://waktu-solat-api.herokuapp.com"
   - It can filter the results based on "Negeri", "Daerah" and "Waktu"
