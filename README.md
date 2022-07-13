@@ -3,7 +3,7 @@
 ![hourglass](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/sony/336/hourglass-not-done_23f3.png)
 ![moon](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/sony/336/crescent-moon_1f319.png)
 
-## I made an app to print muslim prayer time based on an API from "https://waktu-solat-api.herokuapp.com
+## I made an app to print muslim prayer time based on an API from "https://waktu-solat-api.herokuapp.com"
   - It can filter the results based on "Negeri", "Daerah" and "Waktu"
   - Instructions:
     - Open the terminal
